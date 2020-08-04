@@ -7,12 +7,12 @@ public class User {
     private int id;
     private String username;
     private String password;
-    private String salt;
+    private String salt; //加密的辅助字段
     private String email;
     private int type;
     private int status;
     private String activationCode;
-    private String headerUrl;
+    private String headerUrl;//头像
     private Date createTime;
 
     public int getId() {
